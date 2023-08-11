@@ -1,0 +1,17 @@
+Linux is Operating System and Ubuntu is a flavor/version/destros of linux  like ( w10 ).
+We install WSL and Ubuntu but encounter an error while running it and resolve through this following step.
+Going in Optional Features/More Window features then enabling virtual machine platform and  Windows Linux Subsystem.
+After successfully installing tha WSL and Ubuntu we create linux acc using terminal
+and to add another user we use the following command :sudo useradd user_name and :sudo passwd user_name. 
+Other commands that discuss are cd to navigate folders,cp to perform copy, mv to perform move,
+mv to perform move, rm to remove files or folder, ls to show list, mkdir to create directory or folder,
+rmdir remove directiory or folder, cat display file contents, 
+less is like cat but will display fewer contents, head display  the first 10 lines of a file, 
+head -n diplay specific number of lines, tail is the reverse of head,touch  provide timestamp or create file,
+chmod change permission of file (chmod 755 _file), chown change file ownership, find to search files and directories,
+sudo means superuser do, it bypass everything and be careful of using it. Other commands we tried are deluser and clear.
+In creating the report.txt in the activity we prefer use to the VIM as text editor. 
+I use the cd .. to navigate folder and mkdir to create a folder name "report folder".Perform a cd "folder name" then  Create this report.txt
+and edit its contents with this path ~/report folder/report.txt.
+
+

@@ -1,0 +1,58 @@
+* {
+    /* outline: 1px dashed red; */
+    margin:  0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #F8F0E5;
+    padding: 0px 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    ;
+}
+button[type="submit"]{
+    padding: 10px;
+}
+/* <!-- <form action="<?php $_SERVER['PHP_SELF']?>" method="post" class="flex flex-col gap-2">
+                <label for="num_1">Num 1</label>
+                <input type="text" name="num_1" id="num_1" placeholder="Type here" class="input w-full max-w-xs" />
+                <input type="text" placeholder="Type here" class="input w-full max-w-xs" />
+                <div class="flex flex-wrap">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">0</button>
+                <button class="btn">+</button>
+                <button class="btn">-</button>
+                <button class="btn">*</button>
+                <button class="btn">/</button>
+                <button class="btn">Calculate</button>
+                </div>
+                </form> --> */
+                /* <!-- <?php
+                $operators = array("+", "-", "*", "/", "%");
+                foreach($operators as $operator){
+                    echo '<option value="'.$operator.">".$operator."</option>";
+                };
+            ?> --> */
+
+            /* <select name="operator" id="operator" class="select mx-w-xs">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <label for="num_2">Num 2</label>
+        <input type="text"  name="num_2" id="num_2"placeholder="Type here" class="input w-full max-w-xs" />
+        <label for="operator">Operator</label> */
